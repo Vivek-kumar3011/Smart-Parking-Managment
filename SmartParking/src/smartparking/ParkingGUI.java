@@ -81,9 +81,9 @@ public class ParkingGUI extends JFrame {
         JLabel icon = new JLabel("P"); icon.setFont(new Font("Segoe UI", Font.BOLD, 30)); icon.setForeground(ACCENT);
         JLabel title = new JLabel("Smart Parking Management System");
         title.setFont(FONT_TITLE); title.setForeground(TEXT);
-        JLabel sub = new JLabel(" OOP Java Project");
-        sub.setFont(FONT_SMALL); sub.setForeground(TEXT_DIM);
-        left.add(icon); left.add(title); left.add(sub);
+        //JLabel sub = new JLabel(" OOP Java Project");
+        //sub.setFont(FONT_SMALL); sub.setForeground(TEXT_DIM);
+        left.add(icon); left.add(title); //left.add(sub);
 
         JPanel right = new JPanel(new FlowLayout(FlowLayout.RIGHT, 18, 12));
         right.setOpaque(false);
@@ -289,11 +289,12 @@ public class ParkingGUI extends JFrame {
         JPanel p = new JPanel(new BorderLayout());
         p.setBackground(PANEL_BG);
         p.setBorder(new CompoundBorder(new MatteBorder(1,0,0,0,BORDER_C), new EmptyBorder(5,16,5,16)));
-        JLabel l = new JLabel("IIIT Kalyani  |  Prof. Oishila Bandyopadhyay  |  QR Self-Checkout: http://localhost:8080/checkout?token=<TOKEN>");
-        l.setFont(FONT_SMALL); l.setForeground(TEXT_DIM);
+        //JLabel l = new JLabel("IIIT Kalyani  |  Prof. Oishila Bandyopadhyay  |  QR Self-Checkout: http://localhost:8080/checkout?token=<TOKEN>");
+        //l.setFont(FONT_SMALL); l.setForeground(TEXT_DIM);
         JLabel r = new JLabel("Car Rs.30/hr  |  Bike Rs.15/hr  ");
         r.setFont(FONT_SMALL); r.setForeground(AMBER);
-        p.add(l, BorderLayout.WEST); p.add(r, BorderLayout.EAST);
+        //p.add(l, BorderLayout.WEST); 
+        p.add(r, BorderLayout.EAST);
         return p;
     }
 
