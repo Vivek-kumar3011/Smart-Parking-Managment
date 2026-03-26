@@ -1,7 +1,6 @@
 # Smart Parking Management System — V2 (QR + WhatsApp)
 **Mini Project | B.Tech CSE Sem 4 | IIIT Kalyani**
 Subject: Object Oriented Programming (Java)
-Submitted by: Subham Agarwal | Roll No: CSE/24100
 Professor: Oishila Bandyopadhyay
 
 ---
