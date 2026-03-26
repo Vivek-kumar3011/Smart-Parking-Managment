@@ -56,7 +56,7 @@ public class ParkingGUI extends JFrame {
     }
 
     private void buildUI() {
-        setTitle("Smart Parking Management System  |  IIIT Kalyani");
+        setTitle("Smart Parking Management System ");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(1260, 780);
         setMinimumSize(new Dimension(1060, 700));
@@ -81,7 +81,7 @@ public class ParkingGUI extends JFrame {
         JLabel icon = new JLabel("P"); icon.setFont(new Font("Segoe UI", Font.BOLD, 30)); icon.setForeground(ACCENT);
         JLabel title = new JLabel("Smart Parking Management System");
         title.setFont(FONT_TITLE); title.setForeground(TEXT);
-        JLabel sub = new JLabel("   IIIT Kalyani  |  OOP Java Project  |  Subham Agarwal");
+        JLabel sub = new JLabel(" OOP Java Project");
         sub.setFont(FONT_SMALL); sub.setForeground(TEXT_DIM);
         left.add(icon); left.add(title); left.add(sub);
 
